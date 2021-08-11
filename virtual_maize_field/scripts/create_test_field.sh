@@ -1,0 +1,13 @@
+rosrun virtual_maize_field generate_world.py \
+--row_length 10 \
+--rows_left 0 \
+--rows_right 11 \
+--rows_curve_budget 0.78539816339 \
+--row_segments straight,curved \
+--row_segment_curved_radius_min 20.0 \
+--row_segment_curved_radius_max 25.0 \
+--hole_prob 0.04 \
+--hole_size_max 7 \
+--ground_resolution 0.15 \
+--ground_elevation_max 0.05 \
+--seed 8
